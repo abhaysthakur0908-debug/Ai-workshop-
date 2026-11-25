@@ -1,0 +1,41 @@
+SKU,Subsystem,Part Name,Included,Spec Tier,Spec Label,Origin,Supplier Region,Payment Term,Base Vendor (USD),After Scale Disc (USD),Customs Duty (USD),Inbound Freight (USD),Landed Cost (USD),BOM Share (%)
+BAT-CELL-01,battery,"Lithium-Ion Cell Array",Yes,standard,"3.4 kWh NMC 21700",Imported,"Ningde / Seoul Tier-1","30% Adv / 70% Gate",375.00,305.63,36.67,18.00,360.30,27.13
+BAT-BMS-02,battery,"Battery Management System (BMS)",Yes,standard,"Smart CAN-FD 100A Active BMS",Imported,"Taiwan / Germany IC","Net 30",58.00,47.27,3.78,3.50,54.55,4.11
+BAT-ENC-03,battery,"IP67 Battery Enclosure & Thermal Pads",Yes,standard,"Die-Cast Aluminum IP67",Domestic,"Local Die-Cast Foundry","Net 60",54.00,44.01,0.00,4.50,48.51,3.65
+BAT-HAR-04,battery,"High-Voltage Harness & Busbars",Yes,standard,"XLPE Orange HV Shielded Loom",Domestic,"Domestic Harness Tier-2","Net 60",26.00,21.19,0.00,1.80,22.99,1.73
+PWR-MOT-05,powertrain,"Electric Traction Motor",Yes,standard,"5.5 kW Mid-Drive PMSM",Imported,"Wuxi / Rare-Earth Magnet Co.","LC 90 Days",148.00,120.62,12.06,9.00,141.68,10.67
+PWR-INV-06,powertrain,"Motor Controller / FOC Inverter",Yes,standard,"72V 180A Sine-Wave FOC + Regen",Imported,"Infineon / ST Micro Fab","30% Adv / 70% Gate",84.00,68.46,6.85,3.00,78.31,5.90
+PWR-TRN-07,powertrain,"Final Drive Belt / Planetary Gearbox",Yes,economy,"Direct Hub / Roller Chain Kit",Domestic,"Local Precision Gears","Net 60",18.00,14.67,0.00,2.20,16.87,1.27
+PWR-CLG-08,powertrain,"Thermal Management & Cooling Loop",No,economy,"Passive Extruded Alloy Fins",Domestic,"Domestic Thermal Systems","Net 30",12.00,0.00,0.00,0.00,0.00,0.00
+ELC-OBC-09,electronics,"On-Board / Portable Charger",Yes,standard,"1.2 kW IP67 Potted On-Board",Imported,"Shenzhen Power Supply","Net 30",76.00,61.94,4.96,4.00,70.90,5.34
+ELC-DCD-10,electronics,"DC-DC Auxiliary Converter",Yes,standard,"12V 20A Isolated Waterproof",Domestic,"Domestic Auto-Electronics","Net 60",19.00,15.48,0.00,1.00,16.48,1.24
+ELC-VCU-11,electronics,"Vehicle Control Unit (VCU) & 4G IoT",Yes,standard,"CAN-Bus VCU + BLE Keyless",Imported,"Qualcomm / Bosch Tier-1","Net 30",42.00,34.23,3.42,1.50,39.15,2.95
+ELC-CHG-12,electronics,"Charging Inlet & Contactor Relay",Yes,economy,"3-Pin Domestic 15A Socket",Domestic,"Local Connector Mfg","Net 60",9.00,7.33,0.00,1.20,8.53,0.64
+CHS-FRM-13,chassis,"Main Structural Chassis Frame",Yes,standard,"Hybrid Steel-Aluminum Cradle",Domestic,"Domestic Stamping & Welding","Net 60",96.00,78.24,0.00,7.50,85.74,6.46
+CHS-SWG-14,chassis,"Rear Swingarm Assembly",Yes,economy,"Box-Section Mild Steel",Domestic,"Domestic Forging Plant","Net 60",22.00,17.93,0.00,2.50,20.43,1.54
+CHS-FRK-15,chassis,"Front Suspension Forks",Yes,standard,"33mm Dual-Damped Telescopic",Domestic,"Tier-1 Suspension OEM","Net 30",48.00,39.12,0.00,3.00,42.12,3.17
+CHS-SHK-16,chassis,"Rear Shock Absorber(s)",Yes,standard,"5-Step Preload Monoshock",Domestic,"Tier-1 Suspension OEM","Net 30",36.00,29.34,0.00,2.00,31.34,2.36
+BRK-FRT-17,braking,"Front Hydraulic Disc & ABS Module",Yes,standard,"220mm Disc + Combined Braking",Imported,"Bosch / ByBre Brakes","Net 30",38.00,30.97,2.32,2.50,35.79,2.70
+BRK-RER-18,braking,"Rear Brake Caliper & Regen Sensor",Yes,economy,"110mm Mechanical Drum",Domestic,"Domestic Brake Systems","Net 60",12.00,9.78,0.00,1.50,11.28,0.85
+BRK-WHL-19,braking,"Die-Cast Alloy Wheel Pair",Yes,standard,"12" Low-Mass 6-Spoke Alloy",Domestic,"Domestic Wheel Foundry","Net 60",58.00,47.27,0.00,3.80,51.07,3.85
+BRK-TIR-20,braking,"Low-Rolling-Resistance EV Tires",Yes,standard,"Low-RR Silica Compound Pair",Domestic,"Domestic Tire Plant","Net 30",42.00,34.23,0.00,2.80,37.03,2.79
+CKP-DSP-21,cockpit,"Instrument Cluster Display",Yes,standard,"5" Color IPS TFT + Bluetooth",Imported,"Taiwan Display Tier-1","Net 30",46.00,37.49,3.00,1.50,41.99,3.16
+CKP-LGT-22,cockpit,"LED Headlamp, DRL & Tail Matrix",Yes,standard,"Full LED Projector + DRL Signature",Domestic,"Domestic Lighting OEM","Net 60",34.00,27.71,0.00,1.40,29.11,2.19
+CKP-SWG-23,cockpit,"Throttle Hall Sensor & Handlebar Controls",Yes,standard,"IP67 Backlit Tactile Switchgear",Domestic,"Domestic Controls Co.","Net 60",24.00,19.56,0.00,1.00,20.56,1.55
+CKP-BDY-24,cockpit,"ABS Body Panels, Ergonomic Seat & Fasteners",Yes,standard,"2-Coat Metallic ABS + Gel Seat",Domestic,"Domestic Plastics & Trim","Net 60",72.00,58.68,0.00,4.50,63.18,4.76
+
+UNIT ECONOMICS SUMMARY,USD
+Platform,"Urban Commuter Scooter"
+Monthly Production Volume,10000
+Total Landed BOM,1327.92
+Assembly Labor,35.27
+Tooling & R&D Amortization,14.50
+Homologation & Warranty Reserve,57.84
+Total OEM Factory COGS,1435.53
+OEM Gross Margin,229.68
+Ex-Factory Wholesale Price,1665.21
+Dealer Margin,149.87
+Sales Tax / GST,85.95
+EV Subsidy Deducted,-240.00
+Registration & Insurance,115.00
+Final Consumer On-Road Price,1776.04
